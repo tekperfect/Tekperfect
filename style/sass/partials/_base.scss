@@ -1,0 +1,18 @@
+@import './variables';
+*{
+    margin: 0px;
+}
+body{
+    font-family: $main-font;
+    background-color: $main-white;
+}
+nav{
+    font-weight: 400;
+    font-size: 40px;
+}
+main{
+    font-family: $sub-font;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: italic;
+}
