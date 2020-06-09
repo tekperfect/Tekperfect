@@ -1,46 +1,35 @@
 @import './variables';
+/* Mobile first queries IPHONE */
 *{
     margin: 0px;
 }
-body{
+html,body{
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
     font-family: $main-font;
     background-color: $main-white;
+    display: flex;
+    flex-direction: column;
+    
 }
-nav{
-    font-weight: 400;
-    font-size: 40px;
+main.container{
+    flex: 1;
 }
-main{
-    font-family: $sub-font;
-    font-weight: 700;
-    font-size: 30px;
-    font-style: italic;
-}
-
-/* Mobile first queries */
-
-/* Larger than mobile */
+/* Larger than mobile IPHONE PLUS */
 @media (min-width: 400px) {
     body{
         background-color: rgb(98, 0, 255);
     }
 }
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-    body{
-        background-color: rgb(195, 0, 255);
-    }
-}
-
-/* Larger than tablet */
+/* Larger than tablet IPAD */
 @media (min-width: 750px) {
     body{
         background-color: rgb(161, 15, 27);
     }
 }
 
-/* Larger than desktop */
+/* Larger than desktop - IPAD PRO */
 @media (min-width: 1000px) {
     body{
         background-color: rgb(0, 89, 255);

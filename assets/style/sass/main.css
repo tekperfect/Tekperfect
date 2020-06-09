@@ -1,48 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* Mobile first queries IPHONE */
 * {
   margin: 0px;
 }
 
-body {
+html, body {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
   font-family: "Manrope", sans-serif;
   background-color: #F6EFE5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-nav {
-  font-weight: 400;
-  font-size: 40px;
+main.container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-main {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 30px;
-  font-style: italic;
-}
-
-/* Mobile first queries */
-/* Larger than mobile */
+/* Larger than mobile IPHONE PLUS */
 @media (min-width: 400px) {
   body {
     background-color: #6200ff;
   }
 }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  body {
-    background-color: #c300ff;
-  }
-}
-
-/* Larger than tablet */
+/* Larger than tablet IPAD */
 @media (min-width: 750px) {
   body {
     background-color: #a10f1b;
   }
 }
 
-/* Larger than desktop */
+/* Larger than desktop - IPAD PRO */
 @media (min-width: 1000px) {
   body {
     background-color: #0059ff;
@@ -58,6 +55,7 @@ main {
 
 /* Mobile first queries */
 #alert {
+  width: 100%;
   background-color: #292013;
   text-align: center;
   display: -webkit-box;
@@ -69,14 +67,10 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
 }
 
 #alert a {
   color: white;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 #alert .icon-wrapper ion-icons {
@@ -88,11 +82,26 @@ main {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-header {
-  width: 100%;
+nav.nav-wrapper {
+  margin: 0 3em;
 }
 
-header img {
-  width: 100%;
+nav.nav-wrapper #navSocial {
+  background-color: red;
+}
+
+nav.nav-wrapper #navLinks {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav.nav-wrapper #navLinks .nav-bar {
+  height: 100%;
+}
+
+nav.nav-wrapper #navLinks .social-bar {
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */
