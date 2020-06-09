@@ -4,9 +4,25 @@
   margin: 0px;
 }
 
-body {
+html, body {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
   font-family: "Manrope", sans-serif;
   background-color: #F6EFE5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main.container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 /* Larger than mobile IPHONE PLUS */
@@ -39,6 +55,7 @@ body {
 
 /* Mobile first queries */
 #alert {
+  width: 100%;
   background-color: #292013;
   text-align: center;
   display: -webkit-box;
@@ -50,14 +67,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
 }
 
 #alert a {
   color: white;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 #alert .icon-wrapper ion-icons {
@@ -69,21 +82,27 @@ body {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-nav .brand-logo img {
+nav.nav-wrapper {
+  margin: 0 3em;
+}
+
+nav.nav-wrapper #navSocial {
+  background-color: red;
+}
+
+nav.nav-wrapper #navLinks {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav.nav-wrapper #navLinks .nav-bar {
   height: 100%;
 }
 
-nav .nav-bar {
-  font-weight: 40;
-  font-size: 40px;
-}
-
-header {
-  width: 100%;
-}
-
-header img {
-  width: 100%;
+nav.nav-wrapper #navLinks .social-bar {
+  height: 100%;
 }
 
 

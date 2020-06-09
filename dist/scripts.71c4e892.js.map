@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"scripts.71c4e892.js","sourceRoot":"..","sourcesContent":[]}
+{"version":3,"sources":["assets/scripts/index.js"],"names":["$","document","ready","sidenav"],"mappings":"AAAAA,CAAC,CAACC,QAAD,CAAD,CAAYC,KAAZ,CAAkB,YAAU;AACxBF,EAAAA,CAAC,CAAC,UAAD,CAAD,CAAcG,OAAd;AACD,CAFH","file":"scripts.71c4e892.js","sourceRoot":"..","sourcesContent":["$(document).ready(function(){\n    $('.sidenav').sidenav();\n  });"]}

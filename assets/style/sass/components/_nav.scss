@@ -1,14 +1,20 @@
-nav{
-    .social-bar{
+nav.nav-wrapper{
+    margin: 0 3em;
+
+    #brandLogo{
 
     }
-    .brand-logo{
-        img{
+    #menuIcon{
+
+    }
+    #navLinks{
+        height: 100%;
+        display: flex;
+        .nav-bar{
             height: 100%;
         }
-    }
-    .nav-bar{
-        font-weight: 40;
-        font-size: 40px;
+        .social-bar{
+            height: 100%;
+        }
     }
 }
