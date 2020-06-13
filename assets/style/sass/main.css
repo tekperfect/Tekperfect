@@ -55,7 +55,6 @@ main.container {
 
 /* Mobile first queries */
 #alert {
-  width: 100%;
   background-color: #292013;
   text-align: center;
   display: -webkit-box;
@@ -69,8 +68,15 @@ main.container {
           align-items: center;
 }
 
+#alert .contact-banner {
+  margin: auto;
+}
+
 #alert a {
   color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 #alert .icon-wrapper ion-icons {
@@ -82,26 +88,12 @@ main.container {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-nav.nav-wrapper {
-  margin: 0 3em;
+nav {
+  height: 10vh;
+  background-color: #284659;
 }
 
-nav.nav-wrapper #navSocial {
-  background-color: red;
-}
-
-nav.nav-wrapper #navLinks {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav.nav-wrapper #navLinks .nav-bar {
-  height: 100%;
-}
-
-nav.nav-wrapper #navLinks .social-bar {
-  height: 100%;
+header {
+  height: 90vh;
 }
 /*# sourceMappingURL=main.css.map */

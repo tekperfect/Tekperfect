@@ -1,15 +1,19 @@
 /* Mobile first queries */
 #alert{
-    width: 100%;
     background-color: $main-black;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .contact-banner{
+        margin: auto;
+    }
     
 
     a{
-        color: white;    
+        color: white;
+        align-self: center;
     }
     .icon-wrapper{
         ion-icons{
