@@ -1,7 +1,10 @@
 @import "./variables";
+
 /* Mobile first queries IPHONE */
 * {
+  box-sizing: border-box;
   margin: 0px;
+  padding: 0px;
 }
 
 html,
@@ -10,16 +13,18 @@ body {
   height: 100vh;
   min-height: 100vh;
   font-family: $main-font;
-  background-color: $main-white;
+  background-color: $base-black;
   display: flex;
   flex-direction: column;
 }
+
 /* Larger than mobile IPHONE PLUS */
 @media (min-width: 400px) {
   body {
     // background-color: rgb(98, 0, 255);
   }
 }
+
 /* Larger than tablet IPAD */
 @media (min-width: 750px) {
   body {

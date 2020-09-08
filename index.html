@@ -17,15 +17,11 @@
       rel="stylesheet"
     />
     <!-- Skeleton css -->
-    <link rel="stylesheet" href="./assets/vendors/Skeleton/css/normalize.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    /> -->
-    <link rel="stylesheet" href="./assets/vendors/Skeleton/css/skeleton.css" />
+    <link rel="stylesheet" href="./lib/vendors/Skeleton/css/normalize.css" />
+    <link rel="stylesheet" href="./lib/vendors/Skeleton/css/skeleton.css" />
     <!-- Style -->
-    <link rel="stylesheet" href="./assets/style/sass/main.scss" />
-    <!-- <link rel="stylesheet" href="./assets/style/css/custom.css" /> -->
+    <link rel="stylesheet" href="./lib/style/sass/main.scss" />
+    <!-- <link rel="stylesheet" href="./lib/style/css/custom.css" /> -->
     <title>Tekperfect</title>
   </head>
   <!-- TODO: -->
@@ -37,41 +33,31 @@
   - Footer
  -->
   <body>
+    <!-- ALERT -->
     <div id="alert" class="row">
       <div id="alertMessage" class="4 column"></div>
     </div>
-
-    <div class="div"></div>
-    <nav>
-      <div class="container">
-        <div class="row">
-          <div class="four columns">
-            <img src="./lib/images/logo/Copy of TPC-Logo-cmyk.png" alt="" />
-          </div>
-          <div class="four columns">
-            <ul>
-              <li><a href="./assets/pages/why-us.html"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <!-- HEADER -->
     <header>
-      <div class="row">
-        <div class="four columns">
-          <img src="./assets/images/DarkSidePanal.png" alt="" />
-        </div>
-        <div class="eight columns">
-          <div class="container">
-            <div class="heading">
-              <h1>The Tech Partner For Your Organization & Community</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img class="u-full-width" src="./assets/images/devops-bg.png" alt="" />
+      <img
+        class="logo"
+        src="./lib/images/logo/Copy of TPC-Logo-cmyk.png"
+        alt=""
+      />
+      <nav>
+        <ul class="nav__links">
+          <li><a href="./lib/pages/about.html">About</a></li>
+          <li><a href="./lib/pages/contact.html">Contact</a></li>
+          <li><a href="./lib/pages/training.html">Training</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="cta"><button>Contact</button></a>
     </header>
+
+    <!-- BANNER -->
     <div id="banner"></div>
+
+    <!-- MAIN -->
     <main></main>
     <footer></footer>
     <!-- .container is main centered wrapper -->
@@ -99,13 +85,9 @@
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/vendors/materialize/js/materialize.min.js"></script>
-    <script src="./assets/scripts/index.js"></script>
-    <script src="./assets/scripts/effect.js"></script>
+    <script src="./lib/vendors/materialize/js/materialize.min.js"></script>
+    <script src="./lib/scripts/main.js"></script>
+    <script src="./lib/scripts/index.js"></script>
+    <script src="./lib/scripts/effect.js"></script>
   </body>
 </html>

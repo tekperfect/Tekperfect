@@ -1,7 +1,53 @@
-nav {
-  background-color: white;
-  color: black;
-  img {
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: $main-white;
+
+  a,
+  nav,
+  button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: $main-orange;
+    text-decoration: none;
   }
+
+  .logo {
+    width: 13em;
+  }
+
+  .nav__list {
+    list-style: none;
+  }
+
+  .nav__list li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav__list li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav__list li a:hover {
+    color: $main-navy;
+  }
+
+  button {
+    background-color: $main-navy;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: $main-white;
+  }
+
 }
