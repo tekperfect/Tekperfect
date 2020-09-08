@@ -12,73 +12,41 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="./lib/style/sass/main.scss" />
     <title>Tekperfect</title>
   </head>
-  <!-- TODO: -->
-  <!-- Create compnents for :
-  - Alert
-  - Nav
-  - Header
-  - Main
-  - Footer
- -->
   <body>
     <!-- ALERT -->
     <div id="alert" class="row">
       <div id="alertMessage" class="4 column"></div>
     </div>
-    <!-- HEADER -->
-    <header>
-      <img
-        class="logo"
+    <!-- NAVIGATION -->
+    <div id="navigation">
+      <img id ="logo"
         src="./lib/images/logo/Copy of TPC-Logo-cmyk.png"
         alt=""
       />
-      <nav>
+      <!-- NAV -->
+      <nav id="nav">
         <ul class="nav__links">
           <li><a href="./lib/pages/about.html">About</a></li>
           <li><a href="./lib/pages/contact.html">Contact</a></li>
           <li><a href="./lib/pages/training.html">Training</a></li>
         </ul>
       </nav>
-      <a href="#" class="cta"><button>Contact</button></a>
-    </header>
+      <a id="contactBtn" href="#" class="cta"><button>Contact</button></a>
+    </div>
 
     <!-- BANNER -->
     <div id="banner"></div>
 
     <!-- MAIN -->
-    <main></main>
-    <footer></footer>
-    <!-- .container is main centered wrapper -->
-    <div class="container">
-      <!-- columns should be the immediate child of a .row -->
-      <div class="row">
-        <div class="one column">One</div>
-        <div class="eleven columns">Eleven</div>
-      </div>
+    <main>
+    </main>
 
-      <!-- just use a number and class 'column' or 'columns' -->
-      <div class="row">
-        <div class="two columns">Two</div>
-        <div class="ten columns">Ten</div>
-      </div>
-
-      <!-- there are a few shorthand columns widths as well -->
-      <div class="row">
-        <div class="one-third column">1/3</div>
-        <div class="two-thirds column">2/3</div>
-      </div>
-      <div class="row">
-        <div class="one-half column">1/2</div>
-        <div class="one-half column">1/2</div>
-      </div>
-    </div>
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
 
     <script src="./lib/vendors/materialize/js/materialize.min.js"></script>
     <script src="./lib/scripts/main.js"></script>
