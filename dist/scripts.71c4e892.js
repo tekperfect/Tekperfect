@@ -118,8 +118,16 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"assets/scripts/index.js":[function(require,module,exports) {
-$(document).ready(function () {
-  $('.sidenav').sidenav();
+document.addEventListener("DOMContentLoaded", function () {
+  var data = {
+    alertMessage: "Start 2020 with a fresh look at your system. Contact us for a IT audit and overview for your organization!",
+    links: {
+      email: "support@tekperfect.com",
+      twitter: "https://twitter.com/tekperfect"
+    }
+  };
+  var alertMessage = document.querySelector("#alertMessage");
+  document.getElementById("alertMessage").innerHTML = data.alertMessage;
 });
 },{}],"../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -149,7 +157,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56173" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59238" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

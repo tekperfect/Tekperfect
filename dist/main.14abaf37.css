@@ -26,75 +26,28 @@ main.container {
 }
 
 /* Larger than mobile IPHONE PLUS */
+/* Larger than tablet IPAD */
+/* Larger than desktop - IPAD PRO */
+/* Larger than Desktop HD */
+/* Mobile first queries */
+/* Larger than mobile */
 @media (min-width: 400px) {
   body {
-    background-color: #6200ff;
+    background-color: red;
   }
 }
 
-/* Larger than tablet IPAD */
-@media (min-width: 750px) {
-  body {
-    background-color: #a10f1b;
-  }
-}
-
-/* Larger than desktop - IPAD PRO */
-@media (min-width: 1000px) {
-  body {
-    background-color: #0059ff;
-  }
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
-  body {
-    background-color: #a6ff00;
-  }
-}
-
-/* Mobile first queries */
-#alert {
-  background-color: #292013;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#alert .contact-banner {
-  margin: auto;
-}
-
-#alert a {
-  color: white;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-#alert .icon-wrapper ion-icons {
-  color: #292013;
-}
-
-/* Larger than mobile */
 /* Larger than phablet */
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
 nav {
-  height: 10vh;
-  background-color: #284659;
+  height: 8vh;
+  background-color: #4A7A8C;
 }
 
 header {
-  height: 90vh;
+  height: 82vh;
 }
 
 
