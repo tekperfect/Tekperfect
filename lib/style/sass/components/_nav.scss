@@ -4,7 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 5%;
   background-color: $main-white;
 
   a,
@@ -17,16 +17,19 @@ header {
     text-decoration: none;
   }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
   .logo {
     width: 13em;
   }
 
-  .nav__list {
+  nav.nav__list {
     list-style: none;
-  }
-
-  .nav__list li {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 0px 20px;
   }
 
@@ -38,10 +41,11 @@ header {
     color: $main-navy;
   }
 
-  button {
+  a button {
     background-color: $main-navy;
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
+    border: none;
     border-radius: 50px;
     cursor: pointer;
   }
