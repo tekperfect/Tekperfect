@@ -40,17 +40,16 @@
             }
         }
     }
-
-
-
-    a button {
-        background-color: $main-navy;
-        color: white;
-        transition: all 0.3s ease 0s;
-        padding: 9px 25px;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
+    #contactBtn{
+        button{
+            background-color: $main-navy;
+            color: white;
+            transition: all 0.3s ease 0s;
+            padding: 9px 25px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+        }
     }
 
     button:hover {
