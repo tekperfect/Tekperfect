@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-  <!-- <link rel="stylesheet" href="./lib/style/sass/main.scss" /> -->
+
+  <link rel="icon" href="./lib/images/logo/favicon_io/android-chrome-192x192.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="./lib/images/logo/favicon_io/apple-touch-icon.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="./lib/style/sass/main.scss" />
   <link rel="stylesheet" href="./lib/style/sass/main.css" />
   
   <title>Tekperfect</title>
@@ -21,91 +24,131 @@
 <body>
   <div id="home-page-content">
     <!-- ALERT -->
-    <div id="banner" class="container-fluid">
+    <!-- <div id="banner" class="container-fluid">
       <div class="conainer">
         <h1 id="message">Start 2020 with a fresh look at your system. Contact us for a IT audit and overview for your organization!</h1>
       </div>
-    </div>
+    </div> -->
     <!-- NAVIGATION -->
     <div id="navigation">
-      <img id="logo" src="./lib/images/logo/Copy of TPC-Logo-cmyk.png" alt="" />
+      <img id="logo" src="./lib/images/logo/tekperfect-text.png" alt="" />
       <!-- NAV -->
       <nav id="nav">
         <ul class="nav__links">
+          <li><a href="./index.html">Home</a></li>      
           <li><a href="./lib/pages/about.html">About</a></li>
           <li><a href="./lib/pages/contact.html">Contact</a></li>
           <li><a href="./lib/pages/training.html">Training</a></li>
         </ul>
+        <a id="contactBtn" href="#" class="cta"><button>Contact</button></a>
       </nav>
-      <a id="contactBtn" href="#" class="cta"><button>Contact</button></a>
     </div>
 
     <header>
-      <div class="overlay-content">
-        <h1>Hello</h1>
-        <p>Responsive Heading</p>
+      <div class="row">
+        <div class="wrapper">
+          <img src="./lib/images/devops-bg.png" alt="" srcset="">
+          <div class="overlay">
+            <img src="./lib/images/logo/tepferfect-icon.png" alt="">
+            <h1>TekPerfect Is The Tech Partner For </br>
+               Your Organization and Community</h1>
+          </div>
+        </div>
       </div>
-      <img src="./lib/images/devops-bg.png" alt="">
     </header>
-  </div>
 
   <!-- BANNER -->
-  <div id="banner" class="row">
-    <div class="container">
-      <h1>
-        Our team provides <strong>responsive</strong> and
+    <div id="banner" class="row">
+      <div class="container">
+        <h1>Our team provides <strong>responsive</strong> and
         <strong>comprehensive</strong> solutions for your IT needs. We have
         the knowledge and experience at a fraction of a full-time support
-        staff member.
-      </h1>
+        staff member.</h1>
+      </div>
     </div>
-  </div>
+    <div class="container">
+      <hr>
+      <hr>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+      <div class="row">
+        <div class="container">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="./lib/images/process.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Our Process</h5>
+                <p class="card-text">Our approach to IT is simple: provide solutions for all aspects of your infrastructure that makes sense for you and your budget. TekPerfect ensures your on-premises machines, systems and network are understood with simplicity, security and scalability in mind.</p>
+                <a href="#" class="btn btn-primary">Our Process</a>
+              </div>
+            </div>
+          </div>
+          <div id="featured" class="col">
+            <div class="card-container process-container" id="card-container">
+              <div class="card" id="process">
+                <h1>Process</h1>
+                <div class="social-container">
+                  <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="card-container" id="card-container">
+              <div class="card-section process-container">
+              <!-- content for it-solutions -->
   
-  <br>
-  <br>
+              <!-- content for data and devops -->
+  
+  
+              <!-- content for devops -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="./lib/images/devops.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Training</h5>
+                <p class="card-text">TekPerfect serves companies and communities to gain tech literacy. We provide on-site trainings and conduct monthly workshops to bridge any tech deficiencies.  Be it hardware troubleshooting or learning more about software like Salesforce, we provide training solutions</p>
+                <a href="#" class="btn btn-primary">Training</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <!-- MAIN -->
-  <main class="container-fluid">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./lib/images/person-using-macbook-374720.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./lib/images/person-using-macbook-374720.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./lib/images/person-using-macbook-374720.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </main>
-  <!-- MAILCHIMP FORM -->
+        
+        <!-- <div class="card" style="width: 25rem;">
+          <img class="card-img-top" src="./lib/images/person-using-macbook-374720.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">It Solutions</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div> -->
+        
+      </main>
+      
+      <hr>
+      <!-- MAILCHIMP FORM -->
 
-  <div id="mc_embed_signup">
-    <form action="https://github.us4.list-manage.com/subscribe/post?u=904b923273ceca427f921951d&amp;id=4b5f35f619"
-      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-      novalidate>
-      <div id="mc_embed_signup_scroll">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-            name="b_904b923273ceca427f921951d_4b5f35f619" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-            class="button"></div>
-      </div>
-    </form>
+      <div id="mc_embed_signup">
+        <form action="https://github.us4.list-manage.com/subscribe/post?u=904b923273ceca427f921951d&amp;id=4b5f35f619"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+          novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+              name="b_904b923273ceca427f921951d_4b5f35f619" tabindex="-1" value="">
+            </div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+              class="button"></div>
+            </div>
+        </form>
   </div>
 </div>
 
@@ -113,7 +156,7 @@
   <!-- FOOTER -->
   <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; Your Website</small>
+      <small>&copy; Tekperfect.com | Your local technology partner</small>
     </div>
   </footer>
 

@@ -1,12 +1,23 @@
 header {
-    max-width: 100%;
-    box-sizing: border-box;
-
-    .overlay-content {
-        background-image: url('/pu');
+    img {
+        height: 90vh;
+        width: 100%;
     }
 
-    img {
-        width: 500px;
+    .wrapper {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 10%;
+        left: 16px;
+
+        img {
+            height: 80%;
+            width: 50%;
+        }
     }
 }
