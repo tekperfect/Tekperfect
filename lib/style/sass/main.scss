@@ -44,8 +44,21 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: $main-white;
+  margin: 0;
+}
+
+hr {
+  margin: 1em 0;
+  background-color: $base-black;
 }
 
 .hide {
   display: none;
 }
+
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
+// }

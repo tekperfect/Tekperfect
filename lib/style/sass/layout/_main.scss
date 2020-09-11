@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 main {
-    .container {
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+        justify-content: space-around;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 3em 0;
 
-    .card {
-        width: 25rem;
-    }
+        .col {
+            display: flex;
+            justify-content: center;
 
-    #featured .card {}
+            .card {
+                width: 20rem;
+            }
+        }
+
+    }
 }

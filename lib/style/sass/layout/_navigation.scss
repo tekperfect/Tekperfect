@@ -8,6 +8,8 @@
     padding: 10px 5%;
     background-color: white;
     height: 10vh;
+    box-shadow: 5px #ffffff;
+    z-index: 5;
 
     img,
     nav,
@@ -20,18 +22,24 @@
     }
 
     img {
-
-        height: 4em;
+        height: 3.5em;
     }
 
     nav {
+        display: flex;
 
         ul {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             list-style-type: none;
-            margin-bottom: 0;
+            margin-bottom: 0px;
+            line-height: 100%;
+            margin-top: 1rem;
+
+            li {
+                margin-left: 1em;
+            }
 
             li a {
 
@@ -53,7 +61,12 @@
             border: none;
             border-radius: 50px;
             cursor: pointer;
+            margin-left: 5rem;
         }
+    }
+
+    a:hover {
+        color: $main-orange;
     }
 
     a button:hover {
