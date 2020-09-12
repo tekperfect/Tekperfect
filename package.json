@@ -13,14 +13,13 @@
   },
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3salaz/tekperfect.git"
   },
-  "author": "3salaz",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/3salaz/tekperfect/issues"

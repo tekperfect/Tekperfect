@@ -1,4 +1,65 @@
-@import "./partials/base";
-@import "./components/alert";
-@import "./components/nav";
-@import "./components/header";
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+// @import 'vendors/bootstrap';
+// @import 'vendors/jquery-ui';
+
+// @import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/sidebar';
+
+
+@import 'components/buttons';
+@import 'components/banner';
+@import 'components/carousel';
+@import 'components/slider';
+@import 'components/alert';
+@import 'components/forms';
+// @import 'components/loader';
+
+@import 'pages/home';
+@import 'pages/info';
+@import 'pages/contact';
+
+@import 'themes/theme';
+@import 'themes/admin';
+
+// ============================
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 0;
+}
+
+hr {
+  margin: 1em 0;
+  background-color: $main-blue;
+}
+
+.hide {
+  display: none;
+}
+
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
+// }

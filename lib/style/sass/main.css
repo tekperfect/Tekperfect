@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 5%;
+  background-color: white;
+  height: 10vh;
+  -webkit-box-shadow: 5px #ffffff;
+          box-shadow: 5px #ffffff;
+  z-index: 5;
+}
+
+#navigation img,
+#navigation nav,
+#navigation a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252A;
+  text-decoration: none;
+}
+
+#navigation img {
+  height: 3.5em;
+}
+
+#navigation nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navigation nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+  margin-bottom: 0px;
+  line-height: 100%;
+  margin-top: 1rem;
+}
+
+#navigation nav ul li {
+  margin-left: 1em;
+}
+
+#navigation nav ul li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#navigation nav ul li a:hover {
+  color: #284659;
+}
+
+#navigation a button {
+  background-color: #284659;
+  color: white;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+
+#navigation a:hover {
+  text-color: #f17500;
+}
+
+#navigation a button:hover {
+  background-color: #F6EFE5;
+}
+
+header {
+  /* Paragraph for Parallax Section */
+  /* Heading for Parallax Section */
+  /* Image for Parallax Section */
+  /* Add more images for more sections */
+  width: 100%;
+}
+
+header .paral {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+header .paral p {
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 60px;
+}
+
+header .paral h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+header .paralsec {
+  background-image: url("");
+}
+
+header .jumbotron {
+  margin-bottom: 0;
+}
+
+header .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header .container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+
+header .overlay {
+  position: absolute;
+  top: 10%;
+  left: 16px;
+}
+
+header .overlay img {
+  height: 80%;
+  width: 50%;
+}
+
+header .social-bar {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav__links li {
+  list-style-type: none;
+  border-radius: 100%;
+  padding: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav__links img {
+  width: 3em;
+  height: 3em;
+}
+
+main {
+  background-color: #194680;
+}
+
+main .row {
+  margin-left: 0px;
+  margin-right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3em 0;
+}
+
+main .row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .row .col .card {
+  width: 30rem;
+  border: solid white;
+}
+
+main .row .col .card:hover {
+  border: solid #FEBB2E;
+}
+
+#banner {
+  margin: 5em 0;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 32px;
+  color: #24252A;
+}
+
+/* Mobile first queries */
+#alert {
+  background-color: black;
+  height: 4vh;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+#home-page-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+#sticky-footer {
+  -ms-flex-negative: none;
+      flex-shrink: none;
+  background-color: red;
+}
+
+.main-theme {
+  background-color: white;
+}
+
+.main-theme .container {
+  background-color: #f7eb80;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+
+.main-theme .container * {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.main-theme .container .left {
+  background-color: #497265;
+  height: 100%;
+  width: 69%;
+}
+
+.main-theme .container .right {
+  background-color: #82aa91;
+  height: 100%;
+  position: relative;
+  width: 29%;
+}
+
+.main-theme .container .button {
+  background-color: #bc6a49;
+  border: 0;
+  border-radius: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  position: absolute;
+  right: 10px;
+}
+
+.admin-theme {
+  background-color: white;
+}
+
+.admin-theme .container {
+  background-color: #e4ada7;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+
+.admin-theme .container * {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.admin-theme .container .left {
+  background-color: #d88880;
+  height: 100%;
+  width: 69%;
+}
+
+.admin-theme .container .right {
+  background-color: #cc6359;
+  height: 100%;
+  position: relative;
+  width: 29%;
+}
+
+.admin-theme .container .button {
+  background-color: #481b16;
+  border: 0;
+  border-radius: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  position: absolute;
+  right: 10px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  margin: 0;
+}
+
+hr {
+  margin: 1em 0;
+  background-color: #4A7A8C;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
