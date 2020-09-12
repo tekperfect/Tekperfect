@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 main {
+    background-color: #194680;
 
     .row {
         margin-left: 0px;
@@ -8,16 +9,19 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin: 3em 0;
+        padding: 3em 0;
 
         .col {
             display: flex;
             justify-content: center;
 
             .card {
-                width: 20rem;
+                width: 30rem;
+                border: solid white;
+            }
+
+            .card:hover {
+                border: solid #FEBB2E;
             }
         }
 

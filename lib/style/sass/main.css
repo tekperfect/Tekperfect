@@ -86,7 +86,7 @@
 }
 
 #navigation a:hover {
-  color: #f17500;
+  text-color: #f17500;
 }
 
 #navigation a button:hover {
@@ -94,7 +94,41 @@
 }
 
 header {
+  /* Paragraph for Parallax Section */
+  /* Heading for Parallax Section */
+  /* Image for Parallax Section */
+  /* Add more images for more sections */
   width: 100%;
+}
+
+header .paral {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+header .paral p {
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 60px;
+}
+
+header .paral h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+header .paralsec {
+  background-image: url("../../../images/devops-bg.png");
+}
+
+header .jumbotron {
+  margin-bottom: 0;
 }
 
 header .row {
@@ -138,7 +172,6 @@ header .nav__links {
 
 header .nav__links li {
   list-style-type: none;
-  border: solid black;
   border-radius: 100%;
   padding: 1em;
   -webkit-box-pack: center;
@@ -149,6 +182,10 @@ header .nav__links li {
 header .nav__links img {
   width: 3em;
   height: 3em;
+}
+
+main {
+  background-color: #194680;
 }
 
 main .row {
@@ -163,9 +200,7 @@ main .row {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin: 3em 0;
+  padding: 3em 0;
 }
 
 main .row .col {
@@ -178,7 +213,12 @@ main .row .col {
 }
 
 main .row .col .card {
-  width: 20rem;
+  width: 30rem;
+  border: solid white;
+}
+
+main .row .col .card:hover {
+  border: solid #FEBB2E;
 }
 
 #banner {
@@ -189,11 +229,6 @@ main .row .col .card {
 #banner h1 {
   font-size: 32px;
   color: #24252A;
-}
-
-hr {
-  margin: 1em 0;
-  background-color: white;
 }
 
 /* Mobile first queries */
@@ -350,13 +385,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #F6EFE5;
+  background-color: white;
   margin: 0;
 }
 
 hr {
   margin: 1em 0;
-  background-color: #24252A;
+  background-color: #4A7A8C;
 }
 
 .hide {
