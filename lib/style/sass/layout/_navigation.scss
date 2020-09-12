@@ -6,11 +6,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background-color: $main-white;
+    background-color: white;
+    height: 10vh;
+    box-shadow: 5px #ffffff;
+    z-index: 5;
 
-    #logo,
-    #nav,
-    #contactBtn {
+    img,
+    nav,
+    a {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -18,42 +21,55 @@
         text-decoration: none;
     }
 
-    #logo {
-        // width: 10em;
-        height: 4em;
+    img {
+        height: 3.5em;
     }
 
-    #nav {
+    nav {
         display: flex;
-        .nav__list{
-            flex-direction: row;
-            justify-content: space-between;
-            li{
 
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style-type: none;
+            margin-bottom: 0px;
+            line-height: 100%;
+            margin-top: 1rem;
+
+            li {
+                margin-left: 1em;
             }
+
             li a {
+
                 transition: all 0.3s ease 0s;
-                background: red;
             }
-            li a:hover{
+
+            li a:hover {
                 color: $main-navy;
             }
         }
     }
 
-
-
-    a button {
-        background-color: $main-navy;
-        color: white;
-        transition: all 0.3s ease 0s;
-        padding: 9px 25px;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
+    a {
+        button {
+            background-color: $main-navy;
+            color: white;
+            transition: all 0.3s ease 0s;
+            padding: 9px 25px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-left: 5rem;
+        }
     }
 
-    button:hover {
+    a:hover {
+        text-color: $main-orange;
+    }
+
+    a button:hover {
         background-color: $main-white;
     }
 
