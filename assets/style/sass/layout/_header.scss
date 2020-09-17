@@ -1,0 +1,36 @@
+header {
+    background-color: rgba(0, 0, 0, 0.171);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px $main-blue;
+    align-items: center;
+
+    .parallax {}
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.233);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin-top: 3em;
+            width: 5em;
+            height: 5em;
+        }
+
+        .social-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-links {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
