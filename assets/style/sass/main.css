@@ -135,6 +135,19 @@ footer #mailChimpTitle {
 #banner h1 {
   font-size: 32px;
   color: #24252A;
+  background-color: #ff6384;
+  background-color: #36a2eb;
+  background-color: #ff6384;
+}
+
+#about-banner {
+  background-color: #4A7A8C;
+  padding: 5em 0;
+}
+
+#about-banner h1 {
+  font-size: 32px;
+  color: #24252A;
 }
 
 /* Mobile first queries */
