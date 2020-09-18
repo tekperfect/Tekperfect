@@ -5,8 +5,15 @@ main .row {
     margin: 4em 0;
     text-align: center;
 
+    .content-process {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     .col {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 

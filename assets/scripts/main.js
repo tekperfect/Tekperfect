@@ -4,8 +4,7 @@ $(document).ready(() => {
   // materialize
   $(".sidenav").sidenav();
   $(".parallax").parallax();
-
-  //
+  $('.carousel').carousel();
 
 
   var ctx = $("#myChart");
