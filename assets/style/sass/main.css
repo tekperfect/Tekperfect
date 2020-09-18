@@ -5,10 +5,6 @@ nav {
   background-color: white;
 }
 
-nav .nav-wrapper {
-  padding: 0 5em;
-}
-
 nav ul li a {
   color: black;
 }
@@ -27,7 +23,17 @@ nav .btn:hover {
 }
 
 nav .nav-wrapper {
-  padding: 0 5em;
+  padding: 0 2em;
+}
+
+nav .nav-wrapper .sidenav-trigger {
+  position: absolute;
+  left: 0;
+  color: black;
+}
+
+.sidenav .btn {
+  background-color: #4A7A8C;
 }
 
 #navigation button {
