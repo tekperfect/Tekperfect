@@ -1,0 +1,10 @@
+#contact {
+  // background-color: royalblue;
+  #contactInfo {
+    display: flex;
+    flex-direction: column;
+    .contact-content {
+      display: flex;
+    }
+  }
+}

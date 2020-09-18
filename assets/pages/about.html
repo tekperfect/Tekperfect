@@ -21,7 +21,7 @@
         </a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="index.html">Home</a>
+            <a href="/index.html">Home</a>
           </li>
           <li>
             <a href="/assets/pages/about.html">About</a>
@@ -84,13 +84,63 @@
     </div>
     MAIN -->
     <main class="container row">
-        <canvas id="myChart" width="300" height="300"></canvas>
+        <div class="col s12 m6">
+            <h4>Small/Medium Businesses</h4>
+            <ul>
+                <li>Law Firms</li>
+                <li>Medical Offices</li>
+                <li>Hotels</li>
+                <li>Restaurants</li>
+                <li>Environmental Field Testing</li>
+            </ul>
+
+            <h4>Non-Profits</h4>
+            <ul>
+                <li>Community centers</li>
+                <li>Churches</li>
+                <li>Early stage startups</li>
+                <li>Healthcare</li>
+                <li>FinTech</li>
+                <li>Enterprise</li>
+            </ul>
+
+            <h4>Startups</h4>
+            <ul>
+                <li>Community centers</li>
+                <li>Churches</li>
+                <li>Early stage startups</li>
+                <li>Healthcare</li>
+                <li>FinTech</li>
+                <li>Enterprise</li>
+            </ul>
+        </div>
+        <div class="col s12 m6">
+            <canvas id="myChart" width="500" height="500"></canvas>
+        </div>
     </main>
 
     <div id="contact">
-        <div class="contact-info">
-            <!-- Hello -->
-        </div>
+        <div class="row container">
+            <form id="contactForm" class="col s12 m6 l6">
+                <h1>Contact Us Today</h1>
+                <input placeholder="Name" type="text"  value="" required>
+                <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+                <div class="flex">
+                    <textarea placeholder="Message" rows="1" required></textarea>
+                </div>
+                <button>Send</button>
+            </form>
+            <div id="contactInfo" class="col s12 m6 l6">
+                <div class="contact-header">
+                    <h3>Alfonso Hooker</h3>
+                    <img height="100" width="100" src="/assets/images/small-headshot.jpg" alt="">
+                </div>
+                <div class="contact-content">
+                    <h5>alfonso@tekperfect.com </br>
+                    (510) 214-2972</h5>
+                    <iframe width="350" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=350&amp;height=250&amp;hl=en&amp;q=%20Oakland+(Tekperfect)&amp;t=p&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/'>Maps Generator</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=49bddcf481a85aaf4aed0e74e6a5ae6d3c71c17d'></script>        
+                </div>
+            </div>
     </div>
 
     <!-- FOOTER -->
